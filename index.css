@@ -1,0 +1,80 @@
+/* Mobile First View: */
+
+
+
+h2 {
+	display: none;
+}
+
+aside {
+	background: #1a1919;
+	font-size: 120%;
+	padding: 5px 0;
+	text-align: center;
+	width: 100%;
+}
+
+/* Style the links in the aside section */
+aside a {
+	color: #e7e1de;
+	display: block;
+	padding-top: 20px;
+    padding-right: 2px;
+    padding-bottom: 20px;
+    padding-left: 2px;
+	text-decoration: none;
+	width: 150%;
+}
+
+/* Change the color of aside links on hover using mouse */
+aside a:hover {
+	background-color: #070606f3;
+	color: white;
+}
+
+
+/* Change the color of aside links on focus using tab key */
+aside a:focus {
+  background-color: #e2df2b;
+  color: #E3DFDE;
+  outline: none;
+}
+
+
+article {
+	background-color: #1a1919;
+	color: #ffffff;
+	font-size: 120%;
+	padding: 0 30px;
+}
+
+
+#main_image {
+	align-items: center;
+    width: 80%;
+}
+
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+
+	main {
+		display: flex;
+	}
+
+	aside {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		float: none;
+		justify-content: center;
+		width: 30%;
+	}
+
+	div {
+		display: inline;
+		float: right;
+		width: 70%;
+	}
+
+}
